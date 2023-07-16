@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Cryptography</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Logis
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <a href="landing.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1>ITEC 85</h1>
+        </a>
+
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="landing.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span class="active">Modules</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i
+              ></a>
+              <ul>
+                <li>
+                  <a href="lesson1.html"
+                    >Fundamentals of Information Security</a
+                  >
+                </li>
+                <li><a href="lesson2.html">Network Security</a></li>
+                <li><a href="lesson3.html">Cryptography</a></li>
+                <li><a href="lesson4.html">Web Application Security</a></li>
+                <li>
+                  <a href="lesson5.html">Incidents Response and Forensics</a>
+                </li>
+                <li><a href="lesson6.html">Ethical Hacking</a></li>
+
+                <!-- <li class="dropdown">
+                  <a href="#"
+                    ><span>Deep Drop Down</span>
+                    <i class="bi bi-chevron-down dropdown-indicator"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">Deep Drop Down 1</a></li>
+                    <li><a href="#">Deep Drop Down 2</a></li>
+                    <li><a href="#">Deep Drop Down 3</a></li>
+                    <li><a href="#">Deep Drop Down 4</a></li>
+                    <li><a href="#">Deep Drop Down 5</a></li>
+                  </ul> -->
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a class="get-a-quote" href="get-a-quote.html">Get a Quote</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- End Header -->
+
+    <main id="main">
+      <!-- ======= Breadcrumbs ======= -->
+      <div class="breadcrumbs">
+        <div
+          class="page-header d-flex align-items-center"
+          style="background-image: url('learn2.jpg')"
+        >
+          <div class="container position-relative">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-6 text-center">
+                <h2>Cryptography</h2>
+                <p>
+                  Cryptography is a method of protecting information and
+                  communications through the use of codes, so that only those
+                  for whom the information is intended can read and process it.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav>
+          <div class="container">
+            <ol>
+              <li><a href="landing.html">Home</a></li>
+              <li>Modules</li>
+              <li>Cryptography</li>
+            </ol>
+          </div>
+        </nav>
+      </div>
+      <!-- End Breadcrumbs -->
+
+      <!-- ======= About Us Section ======= -->
+
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="row gy-4">
+            <div
+              class="col-lg-6 position-relative align-self-start order-lg-last order-first"
+            >
+              <img
+                src="crypto.jfif"
+                class="img-fluid"
+                style="height: 300px; width: 600px"
+              />
+              <br /><br />
+              <img
+                src="graphy.jfif"
+                class="img-fluid"
+                style="height: 300px; width: 600px"
+              />
+            </div>
+
+            <div class="col-lg-6 content order-last order-lg-first">
+              <h3>Cryptography techniques</h3>
+              <p>
+                Cryptography is closely related to the disciplines of cryptology
+                and cryptanalysis. It includes techniques such as microdots,
+                merging words with images and other ways to hide information in
+                storage or transit. <br /><br />However, in today's
+                computer-centric world, cryptography is most often associated
+                with scrambling plaintext (ordinary text, sometimes referred to
+                as cleartext) into ciphertext (a process called encryption),
+                then back again (known as decryption). Individuals who practice
+                this field are known as cryptographers.
+              </p>
+              <ul>
+                <li data-aos="fade-up" data-aos-delay="100">
+                  <!-- <i class="bi bi-diagram-3"></i> -->
+                  <img src="algo.png" alt="" style="height: 70px" />
+
+                  <div>
+                    <h5>Cryptographic algorithms</h5>
+                    <p>
+                      Cryptosystems use a set of procedures known as
+                      cryptographic algorithms, or ciphers, to encrypt and
+                      decrypt messages to secure communications among computer
+                      systems, devices and applications. A cipher suite uses one
+                      algorithm for encryption, another algorithm for message
+                      authentication and another for key exchange.
+                      <br /><br />This process, embedded in protocols and
+                      written in software that runs on operating systems (OSes)
+                      and networked computer systems, involves;<br />1. public
+                      and private key generation for data
+                      encryption/decryption<br />2. digital signing and
+                      verification for message authentication <br />3. key
+                      exchange
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- funda  -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="row gy-4">
+            <div
+              class="col-lg-6 position-relative align-self-start order-lg-last order-first"
+            >
+              <img
+                src="public.png"
+                class="img-fluid"
+                style="height: 300px; width: 600px"
+              />
+              <br /><br />
+              <img
+                src="key.jfif"
+                class="img-fluid"
+                style="height: 300px; width: 600px"
+              />
+            </div>
+
+            <div class="col-lg-6 content order-last order-lg-first">
+              <h3>Types of Cryptography</h3>
+              <p>In general there are three types Of cryptography</p>
+              <ul>
+                <li data-aos="fade-up" data-aos-delay="100">
+                  <!-- <i class="bi bi-diagram-3"></i> -->
+                  <img src="symme.png" alt="" style="height: 70px" />
+
+                  <div>
+                    <h5>Symmetric Key Cryptography</h5>
+                    <p>
+                      It is an encryption system where the sender and receiver
+                      of message use a single common key to encrypt and decrypt
+                      messages. Symmetric Key Systems are faster and simpler but
+                      the problem is that sender and receiver have to somehow
+                      exchange key in a secure manner. The most popular
+                      symmetric key cryptography system are Data Encryption
+                      System(DES) and Advanced Encryption System(AES).
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="200">
+                  <!-- <i class="bi bi-fullscreen-exit"></i> -->
+                  <img src="asymme.png" alt="" style="height: 70px" />
+
+                  <div>
+                    <h5>Asymmetric Key Cryptography</h5>
+                    <p>
+                      Under this system a pair of keys is used to encrypt and
+                      decrypt information. A receiver’s public key is used for
+                      encryption and a receiver’s private key is used for
+                      decryption. Public key and Private Key are different. Even
+                      if the public key is known by everyone the intended
+                      receiver can only decode it because he alone know his
+                      private key. The most popular asymmetric key cryptography
+                      algorithm is RSA algorithm.
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <!-- <i class="bi bi-broadcast"></i> -->
+                  <img src="has.png" alt="" style="height: 70px" />
+
+                  <div>
+                    <h5>Hash Functions</h5>
+                    <p>
+                      There is no usage of any key in this algorithm. A hash
+                      value with fixed length is calculated as per the plain
+                      text which makes it impossible for contents of plain text
+                      to be recovered. Many operating systems use hash functions
+                      to encrypt passwords.
+                    </p>
+                  </div>
+                </li>
+                <!-- <li data-aos="fade-up" data-aos-delay="300"> -->
+                <!-- <i class="bi bi-broadcast"></i> -->
+                <!-- <img src="protocol.png" alt="" style="height: 70px" />
+
+                  <div>
+                    <h5>Types of Security Protocols</h5>
+                    <p>
+                      Internet security protocols perform a variety of functions that can be classified into four broad categories:
+                      <ul>
+                        <li>Access Control protocols are tasked with validating a user's identity. Their role is to make sure the right users get access to specific resources;</li>
+                        <li>Encryption Algorithms that turn plaintext (unencrypted information) into ciphertext (encrypted data) to keep it safe from snoopers, hackers, and scammers;</li  >
+                        <li>Key Management protocols which handle encryption key creation, distribution, and maintenance;</li>
+                        <li>Message Integrity protocols that ensure no one without authorization can tamper with or modify that data two parties (people or computer systems) send back and forth.</li>
+                      </ul>
+                    </p>
+                  </div>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="landing.html" class="logo d-flex align-items-center">
+              <span>ITEC-85</span>
+            </a>
+            <p>INFORMATION ASSURANCE AND SECURITY 1</p>
+            <div class="social-links d-flex mt-4">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="landing.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Modules</h4>
+            <ul>
+              <li>
+                <a href="lesson1.html">Fundamentals of Information Security</a>
+              </li>
+              <li><a href="lesson2.html">Network Security</a></li>
+              <li><a href="lesson3.html">Cryptography</a></li>
+              <li><a href="lesson4.html">Web Application Security</a></li>
+              <li>
+                <a href="lesson5.html">Incidents Response and Forensics</a>
+              </li>
+              <li><a href="#lesson6.html">Ethical Hacking</a></li>
+            </ul>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
+          >
+            <h4>Contact Us</h4>
+            <p>
+              Tejeros Convention <br />
+              Rosario (4106) Cavite<br />
+              Philippines <br /><br />
+              <strong>Phone:</strong> +1 5589 55488 55<br />
+              <strong>Email:</strong> info@example.com<br />
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-4">
+        <div class="copyright">
+          &copy; Copyright <strong><span>ITEC - 85 </span></strong>. All Rights
+          Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

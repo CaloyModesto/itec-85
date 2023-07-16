@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Web Application Security</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Logis
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <a href="landing.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1>ITEC 85</h1>
+        </a>
+
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="landing.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span class="active">Modules</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i
+              ></a>
+              <ul>
+                <li>
+                  <a href="lesson1.html"
+                    >Fundamentals of Information Security</a
+                  >
+                </li>
+                <li><a href="lesson2.html">Network Security</a></li>
+                <li><a href="lesson3.html">Cryptography</a></li>
+                <li><a href="lesson4.html">Web Application Security</a></li>
+                <li>
+                  <a href="lesson5.html">Incidents Response and Forensics</a>
+                </li>
+                <li><a href="lesson6.html">Ethical Hacking</a></li>
+
+                <!-- <li class="dropdown">
+                  <a href="#"
+                    ><span>Deep Drop Down</span>
+                    <i class="bi bi-chevron-down dropdown-indicator"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">Deep Drop Down 1</a></li>
+                    <li><a href="#">Deep Drop Down 2</a></li>
+                    <li><a href="#">Deep Drop Down 3</a></li>
+                    <li><a href="#">Deep Drop Down 4</a></li>
+                    <li><a href="#">Deep Drop Down 5</a></li>
+                  </ul> -->
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a class="get-a-quote" href="get-a-quote.html">Get a Quote</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- End Header -->
+
+    <main id="main">
+      <!-- ======= Breadcrumbs ======= -->
+      <div class="breadcrumbs">
+        <div
+          class="page-header d-flex align-items-center"
+          style="background-image: url('learn2.jpg')"
+        >
+          <div class="container position-relative">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-6 text-center">
+                <h2>Web Application Security</h2>
+                <p>
+                  Web application security is the practice of protecting
+                  websites, applications, and APIs from attacks. It is a broad
+                  discipline, but its ultimate aims are keeping web applications
+                  functioning smoothly and protecting business from cyber
+                  vandalism, data theft, unethical competition, and other
+                  negative consequences.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav>
+          <div class="container">
+            <ol>
+              <li><a href="landing.html">Home</a></li>
+              <li>Modules</li>
+              <li>Web Application Security</li>
+            </ol>
+          </div>
+        </nav>
+      </div>
+      <!-- End Breadcrumbs -->
+
+      <!-- ======= About Us Section ======= -->
+
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="row gy-4">
+            <div
+              class="col-lg-6 position-relative align-self-start order-lg-last order-first"
+            >
+              <img
+                src="web.png"
+                class="img-fluid"
+                style="height: 300px; width: 600px"
+              />
+              <br /><br />
+              <img
+                src="webtest.png"
+                class="img-fluid"
+                style="height: 300px; width: 600px"
+              />
+            </div>
+
+            <div class="col-lg-6 content order-last order-lg-first">
+              <h3>Common Web Application Vulnerabilities</h3>
+              <p>
+                Web applications may face a number of attack types depending on
+                the attacker’s goals, the nature of the targeted organization’s
+                work, and the application’s particular security gaps. Common
+                attack types include:
+              </p>
+              <ul>
+                <li data-aos="fade-up" data-aos-delay="100">
+                  <!-- <i class="bi bi-diagram-3"></i> -->
+                  <img src="xss1.png" alt="" style="height: 70px" />
+
+                  <div>
+                    <h5>Cross site scripting (XSS)</h5>
+                    <p>
+                      XSS is a vulnerability that allows an attacker to inject
+                      client-side scripts into a webpage in order to access
+                      important information directly, impersonate the user, or
+                      trick the user into revealing important information.
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="200">
+                  <!-- <i class="bi bi-fullscreen-exit"></i> -->
+                  <img src="sqi.png" alt="" style="height: 70px" />
+
+                  <div>
+                    <h5>SQL Injection (SQi)</h5>
+                    <p>
+                      SQi is a method by which an attacker exploits
+                      vulnerabilities in the way a database executes search
+                      queries. Attackers use SQi to gain access to unauthorized
+                      information, modify or create new user permissions, or
+                      otherwise manipulate or destroy sensitive data.
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <!-- <i class="bi bi-broadcast"></i> -->
+                  <img src="csrf.png" alt="" style="height: 80px" />
+
+                  <div>
+                    <h5>Cross-site request forgery (CSRF)</h5>
+                    <p>
+                      Cross site request forgery involves tricking a victim into
+                      making a request that utilizes their authentication or
+                      authorization. By leveraging the account privileges of a
+                      user, an attacker is able to send a request masquerading
+                      as the user. Once a user’s account has been compromised,
+                      the attacker can exfiltrate, destroy or modify important
+                      information. Highly privileged accounts such as
+                      administrators or executives are commonly targeted.
+                    </p>
+                  </div>
+                </li>
+                <!-- <li data-aos="fade-up" data-aos-delay="300"> -->
+                <!-- <i class="bi bi-broadcast"></i> -->
+                <!-- <img src="workplace.png" alt="" style="height: 70px" />
+
+                  <div>
+                    <h5>Enables a more modern workplace</h5>
+                    <p>
+                      From allowing employees to work securely from any location
+                      using VPN to encouraging collaboration with secure network
+                      access, network security provides options to enable the
+                      future of work. Effective network security also provides
+                      many levels of security to scale with your growing
+                      business.
+                    </p>
+                  </div>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- funda  -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="row gy-4">
+            <div
+              class="col-lg-6 position-relative align-self-start order-lg-last order-first"
+            >
+              <img
+                src="practices.jfif"
+                class="img-fluid"
+                style="height: 300px; width: 600px"
+              />
+              <br /><br />
+              <img
+                src="import.jfif"
+                class="img-fluid"
+                style="height: 300px; width: 600px"
+              />
+            </div>
+
+            <div class="col-lg-6 content order-last order-lg-first">
+              <h3>Secure Coding Best Practices</h3>
+              <p>
+                Protecting and securing code to industry standards is extremely
+                challenging to achieve. Here are the top secure code best
+                practices to defend your workload against compromise.
+              </p>
+              <ul>
+                <li data-aos="fade-up" data-aos-delay="100">
+                  <!-- <i class="bi bi-diagram-3"></i> -->
+                  <img src="#.png" alt="" style="height: 70px" />
+
+                  <div>
+                    <h5>Visibility and Monitoring</h5>
+                    <p>
+                      Without secure coding protection, it’s extremely difficult
+                      to know exactly what data is saved to a code repository.
+                      Automated detection monitoring scans the repository
+                      looking for vulnerabilities and if any issues are
+                      encountered, alerts are triggered ready for triaging. Map
+                      and monitor hidden sensitive assets, codebases, logs, and
+                      other sensitive intellectual property that may be left
+                      exposed to public facing repositories. <br />
+                      Security Automation: Automated secret detection eliminates
+                      the painstaking and repetitive process of having to
+                      manually search for code security vulnerabilities.
+                      Automated engines scan the repo using ML trained detectors
+                      to improve success rates, and pre-commit checks will
+                      identify issues before the code is committed to source
+                      control.
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="200">
+                  <!-- <i class="bi bi-fullscreen-exit"></i> -->
+                  <img src="#.png" alt="" style="height: 70px" />
+
+                  <div>
+                    <h5>Logs and Alerts</h5>
+                    <p>
+                      Secrets can unintentionally be included in log entries,
+                      therefore automated protections should target logs.
+                      Additionally, it’s critical to ensure verbose logging is
+                      enabled locally for custom applications, making it
+                      possible to monitor out-of-sight assets, but never check
+                      into the code repository.
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <!-- <i class="bi bi-broadcast"></i> -->
+                  <img src="#.png" alt="" style="height: 70px" />
+
+                  <div>
+                    <h5>Block Reflected XSS</h5>
+                    <p>
+                      Protecting against non-persistent or reflected XSS attacks
+                      prevents malicious scripts being committed into source
+                      control. In turn, this protects users against the
+                      execution of targeted malicious HTML or JavaScript.
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <!-- <i class="bi bi-broadcast"></i> -->
+                  <img src="#.png" alt="" style="height: 70px" />
+
+                  <div>
+                    <h5>Mitigate Misconfiguration</h5>
+                    <p>
+                      Human error and mistakes are an inevitability of coding,
+                      and secure coding best practices demand the ability to
+                      remediate any issues rapidly. Security lapses should be
+                      fixed immediately and all traces removed from the history
+                      of the repo.
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <!-- <i class="bi bi-broadcast"></i> -->
+                  <img src="#.png" alt="" style="height: 70px" />
+
+                  <div>
+                    <h5>Protecting Secrets and Data</h5>
+                    <p>
+                      Secure coding protects against secrets and business data
+                      from leaking into the public domain. This includes
+                      passwords, API keys, Tokens, Credentials, PCI, PII, and
+                      PHI data. The solution should meet these OWASP
+                      recommendations as standard: 2017 – Broken Authentication,
+                      2017 – Sensitive Data Exposure, 2017 – Broken Access
+                      Control, 2017 – Security Misconfiguration.
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <!-- <i class="bi bi-broadcast"></i> -->
+                  <img src="#.png" alt="" style="height: 70px" />
+
+                  <div>
+                    <h5>Harnessing the Power of AI/ML</h5>
+                    <p>
+                      The scope of threats is immense, simplifying the task by
+                      using AI/ML datasets to train detectors to automatically
+                      identify both known and unknown code security risks.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="landing.html" class="logo d-flex align-items-center">
+              <span>ITEC-85</span>
+            </a>
+            <p>INFORMATION ASSURANCE AND SECURITY 1</p>
+            <div class="social-links d-flex mt-4">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="landing.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Modules</h4>
+            <ul>
+              <li>
+                <a href="lesson1.html">Fundamentals of Information Security</a>
+              </li>
+              <li><a href="lesson2.html">Network Security</a></li>
+              <li><a href="lesson3.html">Cryptography</a></li>
+              <li><a href="lesson4.html">Web Application Security</a></li>
+              <li>
+                <a href="lesson5.html">Incidents Response and Forensics</a>
+              </li>
+              <li><a href="#lesson6.html">Ethical Hacking</a></li>
+            </ul>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
+          >
+            <h4>Contact Us</h4>
+            <p>
+              Tejeros Convention <br />
+              Rosario (4106) Cavite<br />
+              Philippines <br /><br />
+              <strong>Phone:</strong> +1 5589 55488 55<br />
+              <strong>Email:</strong> info@example.com<br />
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-4">
+        <div class="copyright">
+          &copy; Copyright <strong><span>ITEC - 85 </span></strong>. All Rights
+          Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
